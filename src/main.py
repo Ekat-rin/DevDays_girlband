@@ -195,7 +195,7 @@ def start_audio2():
 def setting_audio_mode2():
     time.sleep(5)
     global p6
-    p6 = Process(name ='p6', target=playsound.playsound, args=('5min.mp3',))
+    p6 = Process(name ='p6', target=audio_sound2)
     p6.start()
     
 
@@ -410,7 +410,7 @@ p2 = Process(name="p2",target=finish_sound)
 p3 = Process(name="p3",target=lefty_sound)
 p4 = Process(name="p4",target=righty_sound)
 p5 = Process(name="p5",target=untitled111_sound)
-p6 = Process(name ='p6', target=playsound.playsound, args=('5min.mp3',))
+p6 = Process(name ='p6', target=audio_sound2)
 
 open_main_window()
 
