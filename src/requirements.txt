@@ -7,7 +7,7 @@ kiwisolver==1.1.0
 matplotlib==3.1.1
 numpy==1.17.3
 pefile==2019.4.18
-Pillow==6.2.1
+Pillow==9.3.0
 playsound==1.2.2
 pygame==1.9.6
 pyglet==1.4.6
